@@ -2,6 +2,7 @@ body {
     text-align: center;
     font-family: 'Inconsolata', monospace;
     background-color: #a6dbbd;
+    background-image: ("./images/background.png");
 }
 
 h2 {
@@ -30,14 +31,22 @@ h2:first-of-type {
     margin: auto; 
     font-size: 15px;
   }
- 
 
-.score-div {
-
-    font-size:10px;
-    line-height: 10px;
-  }
 
 #decreaseTime {
     font-size:10px;
 }
+
+#score-div {
+font-size: 15px;
+font-weight: bold;
+}
+
+/*#score-div {
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+   font-size:10px;
+   line-height: 10px;
+}
+*/
